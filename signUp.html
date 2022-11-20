@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>SignUp</title>
+        <link rel="stylesheet" href="signUp.css">
+    </head>
+    <body>
+        <div class="container">
+            <form class="grid-item form-container" action="signUp.php" method="post">
+                <p class="grid-text">Create an Account</p>
+                <label for="id"  class="grid-username" id="basic">
+                    <span>username</span>
+                    <input id="id" type="text" name="username" size="12" minlength="8" maxlength="12">
+                </label>
+                <label for="pw"  class="grid-password">
+                    <span>password</span>
+                    <input id="pw" type="password" name="password" size="12" minlength="8" maxlength="12">
+                </label>
+                <label for="age"  class="grid-age">
+                    <span>age</span>
+                    <input id="age" type="number" name="age" min="1" size="12">
+                </label>
+                <label for="sex"  class="grid-sex">
+                    <span>sex</span>
+                    <select name="sex">
+                        <option value="w" selected> Woman
+                        <option value="m"> Man
+                    </select>
+                </label>
+                <input type="submit" name="submit" value="SIGN UP" class="grid-register">
+            </form>
+        </div>
+    </body>
+</html>

@@ -206,7 +206,7 @@
 
 
 	echo "<div id=\"btn_group\">
-        <button id=\"test_btn\" onClick=\"location.href='create_review.php?title=" . $title . "'\">리뷰 작성하기</button>
+        <button id=\"test_btn\" onClick=\"location.href='writeReview.php?title=" . $title . "'\">리뷰 작성하기</button>
     	</div>";
 
 

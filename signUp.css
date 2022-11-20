@@ -1,0 +1,134 @@
+.container{
+    height: 97vh;
+    display: grid;
+    grid-template-columns: 1fr 450px 1fr;
+    grid-template-rows: 1fr 520px 1fr;
+}
+
+
+.grid-item{
+    width: 450px;
+    height: 520;
+    border-radius: 15px;
+    background-color: #FFE5E5;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.form-container{
+    display: grid;
+    grid-template-columns: 70px 130px 50px 130px 70px;
+    grid-template-rows: 100px 95px 95px 95px 135px;
+}
+
+.grid-text{
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    text-align: center;
+    font-weight: bold;
+    color: #F26C6C;
+    font-size: 30px;
+}
+
+.grid-username{
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.grid-password{
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+
+.grid-register{
+    padding: 0px;
+    margin-top: 30px;
+    border-radius: 15px;
+    border: solid 2px #F26C6C;
+    background-color: #F26C6C;
+    height: 55px;
+    width: 310px;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+ 
+input{
+    padding-left: 15px;
+    border-radius: 15px;
+    border: solid 2px #BABABA;
+    height: 50px;
+    width: 290px;
+    margin-top: 5px;
+}
+
+input#age{
+    width: 120px;
+    padding-left: 10px;
+}
+
+input:focus{
+    outline:none;
+    color: #8D8D8D;
+}
+
+.grid-age{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+.grid-sex{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+
+.grid-register:hover{
+    background-color: white;
+    color: #F26C6C;
+}
+input::placeholder{
+    color:#BABABA;
+}
+
+a{
+    color: #F26C6C;
+    text-align: right;  
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+span{
+    font-size: 24px;
+    color: #8D8D8D;
+}
+
+select{
+    margin-top: 5px;
+    height: 56px;
+    width: 130px;
+    padding-left: 10px;
+    border-radius: 15px;
+    border: solid 2px #BABABA;
+}
+
+select:focus{
+    outline:none;
+    color: #8D8D8D;
+}

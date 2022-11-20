@@ -1,0 +1,144 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 300px 200px 300px 1fr;
+}
+
+#appleMovie{
+    text-align: center;
+    height: 50px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+#items{
+    text-align: right;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
+#accountSettings{
+    margin-top: 50px;
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
+
+#myMovie{
+    margin-top: 50px;
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
+
+#info_pic{
+    margin-top: 20px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+#info_text{
+    margin-top: 20px;
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+
+#myReview{
+    margin-top: 50px;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+#more{
+    margin-top: 50px;
+    text-align: right;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    font-size: 24px;
+    color: #8D8D8D;
+}
+
+#review{
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
+
+.menu{
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: 24px;
+    color:#F26C6C;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+
+
+.box{
+    height: 70px;
+    border: 2px solid #F26C6C;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+
+
+.movieTitle{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.sub{
+    font-size: 20px;
+    color:#8D8D8D;
+}
+
+.input-box{
+    padding-left: 15px;
+    border-radius: 15px;
+    border: solid 2px #BABABA;
+    height: 40px;
+    width: 250px;
+    margin-top: 5px;
+}
+
+.submit-btn{
+    padding: 0px;
+    border-radius: 15px;
+    border: solid 2px #F26C6C;
+    background-color: #F26C6C;
+    height: 48px;
+    width: 120px;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+
+input::placeholder{
+    color:#BABABA;
+}
+
+input:focus{
+    outline:none;
+    color: #8D8D8D;
+}
+
+.submit-btn:hover{
+    background-color: white;
+    color: #F26C6C;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+}
+
+a:link{
+    color: #8D8D8D;
+}
+
+a:visited{
+    color: #8D8D8D;
+}
+
+a:hover{
+    color: #F26C6C;
+}

@@ -16,6 +16,7 @@
 		&nbsp;&nbsp;&nbsp; <a href="movie_all.php" style="color:#BABABA;">MOVIE</a>
 		&nbsp;&nbsp;&nbsp; <a href="actor_all.php" style="color:#BABABA;">ACTOR</a>
 		&nbsp;&nbsp;&nbsp; <a href="director_all.php" style="color:#BABABA;">DIRECTOR</a>
+		&nbsp;&nbsp;&nbsp; <a href="rankingPage.php" style="color:#BABABA;">RANKING</a>
 		&nbsp;&nbsp;&nbsp;<a href="search_movie.php" style="color:#BABABA;">SEARCH</a> 
 		&nbsp;&nbsp;&nbsp;<a href="searchFilter.php" style="color:#BABABA;">FILTER</a>
 		&nbsp;&nbsp;&nbsp; <a href="myPage.php" style="color:#BABABA;">MY</a>
